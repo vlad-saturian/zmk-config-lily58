@@ -43,11 +43,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC              &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                      &kp N6  &kp N7    &kp N8     &kp N9   &kp N0    &kp GRAVE
-&kp TAB              &kp Q   &kp W   &kp E     &kp R     &kp T                                       &kp Y   &kp U     &kp I      &kp O    &kp P     &kp MINUS
-&kp RS(RC(RG(F13)))  &kp A   &kp S   &kp D     &kp F     &kp G                                       &kp H   &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT            &kp Z   &kp X   &kp C     &kp V     &kp B      &kp ESCAPE    &kp LC(BACKSPACE)  &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                                     &kp LALT  &kp LGUI  &kp SPACE  &mo 2         &kp BACKSPACE      &mo 2   &kp BSPC  &kp RGUI
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                  &kp N6  &kp N7    &kp N8     &kp N9   &kp N0    &kp GRAVE
+&kp TAB    &kp Q   &kp W   &kp E     &kp R     &kp T                                   &kp Y   &kp U     &kp I      &kp O    &kp P     &kp MINUS
+&mo 1      &kp A   &kp S   &kp D     &kp F     &kp G                                   &kp H   &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z   &kp X   &kp C     &kp V     &kp B      &kp ESCAPE    &kp BACKSPACE  &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                           &kp LALT  &kp LGUI  &kp SPACE  &mo 2         &kp ENTER      &mo 3   &kp BSPC  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -62,11 +62,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp GRAVE  &trans              &trans          &trans               &trans  &trans                       &trans     &trans            &trans             &trans                &trans                 &trans
-&trans     &kp LS(LEFT_ARROW)  &kp UP_ARROW    &kp LS(RIGHT_ARROW)  &trans  &trans                       &kp F7     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
-&trans     &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans  &trans                       &kp CARET  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp GRAVE             &kp UNDERSCORE         &kp TILDE
-&trans     &trans              &kp DELETE      &kp ENTER            &trans  &trans     &trans    &trans  &trans     &kp MINUS         &kp KP_PLUS        &kp LBRC              &kp RBRC               &kp PIPE
-                                               &trans               &trans  &kp ENTER  &trans    &trans  &trans     &trans            &trans
+&kp GRAVE  &kp RS(RC(NUMBER_1))  &kp RS(RC(NUMBER_2))  &kp RS(RC(NUMBER_3))  &kp RS(RC(NUMBER_4))  &trans                       &trans      &trans            &trans             &trans                &trans                 &trans
+&trans     &kp LS(LEFT_ARROW)    &kp UP_ARROW          &kp LS(RIGHT_ARROW)   &trans                &trans                       &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
+&trans     &kp LEFT_ARROW        &kp DOWN_ARROW        &kp RIGHT_ARROW       &trans                &trans                       &kp EQUAL   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp GRAVE             &kp UNDERSCORE         &kp TILDE
+&trans     &trans                &kp BACKSPACE         &kp ENTER             &trans                &trans     &trans    &trans  &trans      &kp PLUS          &kp MINUS          &kp LBRC              &kp QUESTION           &kp PIPE
+                                                       &trans                &trans                &kp ENTER  &trans    &trans  &trans      &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -92,6 +92,26 @@
         };
 
         higher_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+            >;
+        };
+
+        sub_caps_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+            >;
+        };
+
+        bluetooth_controls {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
