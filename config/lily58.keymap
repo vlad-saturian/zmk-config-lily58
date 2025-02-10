@@ -72,11 +72,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&studio_unlock  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                      &kp F6       &kp F7     &kp F8     &kp F9    &kp F10    &trans
-&trans          &kp NUMBER_0  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp F6                      &kp N6       &kp N7     &kp N8     &kp N9    &kp N0     &trans
-&trans          &kp ENTER     &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4  &kp F12                     &trans       &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
-&trans          &kp DOT       &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp F11  &kp F10    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
-                                            &trans        &trans        &trans   &trans     &trans  &trans       &trans     &trans
+&kp C_BRIGHTNESS_INC  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                 &kp F6       &kp F7     &kp F8     &kp F9    &kp F10    &trans
+&kp C_BRIGHTNESS_DEC  &kp NUMBER_0  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp F6                                 &kp N6       &kp N7     &kp N8     &kp N9    &kp N0     &trans
+&trans                &kp ENTER     &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4  &kp C_VOLUME_UP                        &trans       &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
+&trans                &kp DOT       &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp C_VOL_DN     &kp K_MUTE    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
+                                                  &trans        &trans        &trans           &trans        &trans  &trans       &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
