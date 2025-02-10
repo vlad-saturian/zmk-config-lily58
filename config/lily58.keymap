@@ -46,11 +46,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                             &kp N6  &kp N7            &kp N8     &kp N9   &kp N0    &kp GRAVE
-&kp TAB    &kp Q   &kp W   &kp E     &kp R     &kp T                              &kp Y   &kp U             &kp I      &kp O    &kp P     &kp BACKSLASH
-&mo 1      &kp A   &kp S   &kp D     &kp F     &kp G                              &kp H   &kp J             &kp K      &kp L    &kp SEMI  &kp PIPE
-&kp LSHFT  &kp Z   &kp X   &kp C     &kp V     &kp B      &mo 5    &kp BACKSPACE  &kp N   &kp M             &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                           &kp LALT  &kp LGUI  &kp SPACE  &mo 2    &kp ENTER      &mo 3   &kp LEFT_CONTROL  &kp RGUI
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                              &kp N6  &kp N7            &kp N8     &kp N9   &kp N0    &kp GRAVE
+&kp TAB    &kp Q   &kp W   &kp E     &kp R     &kp T                               &kp Y   &kp U             &kp I      &kp O    &kp P     &kp BACKSLASH
+&mo 1      &kp A   &kp S   &kp D     &kp F     &kp G                               &kp H   &kp J             &kp K      &kp L    &kp SEMI  &kp PIPE
+&kp LSHFT  &kp Z   &kp X   &kp C     &kp V     &kp B   &mo 5        &kp BACKSPACE  &kp N   &kp M             &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                           &kp LALT  &kp LGUI  &mo 2   &kp SPACE    &kp ENTER      &mo 3   &kp LEFT_CONTROL  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -68,7 +68,7 @@
 &kp GRAVE           &kp RC(RA(RG(NUMBER_1)))  &kp RC(RA(RG(NUMBER_2)))  &kp RC(RA(RG(NUMBER_3)))  &kp RC(RA(RG(NUMBER_4)))  &trans                                          &trans      &trans            &trans             &trans                &trans                 &trans
 &kp RC(DOWN_ARROW)  &kp LS(LEFT_ARROW)        &kp UP_ARROW              &kp LS(RIGHT_ARROW)       &kp RG(RC(RA(R)))         &kp RG(RC(RA(T)))                               &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans              &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp RC(RG(RA(F)))         &kp RA(RG(RC(G)))                               &kp EQUAL   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp GRAVE             &kp UNDERSCORE         &kp TILDE
-&trans              &trans                    &kp BACKSPACE             &kp ENTER                 &kp RA(RC(RG(V)))         &kp RA(RC(RG(B)))  &trans    &kp LS(BACKSPACE)  &kp STAR    &kp PLUS          &kp MINUS          &kp LBRC              &kp QUESTION           &trans
+&trans              &trans                    &trans                    &kp BACKSPACE             &kp RA(RC(RG(V)))         &kp RA(RC(RG(B)))  &trans    &kp LS(BACKSPACE)  &kp STAR    &kp PLUS          &kp MINUS          &kp LBRC              &kp QUESTION           &trans
                                                                         &trans                    &trans                    &kp ENTER          &trans    &trans             &trans      &trans            &trans
             >;
 
@@ -84,11 +84,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&studio_unlock  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                            &kp F6       &kp F7     &kp F8     &kp F9    &kp F10    &kp F11
-&trans          &kp NUMBER_0  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp F6                            &kp N6       &kp N7     &kp N8     &kp N9    &kp N0     &trans
-&trans          &kp ENTER     &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4  &kp F12                           &trans       &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
-&trans          &kp DOT       &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp F11        &kp F10    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
-                                            &trans        &trans        &kp BACKSPACE  &trans     &trans  &trans       &trans     &trans
+&studio_unlock  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                      &kp F6       &kp F7     &kp F8     &kp F9    &kp F10    &kp F11
+&trans          &kp NUMBER_0  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp F6                      &kp N6       &kp N7     &kp N8     &kp N9    &kp N0     &trans
+&trans          &kp ENTER     &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4  &kp F12                     &trans       &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
+&trans          &kp DOT       &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp F11  &kp F10    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
+                                            &trans        &trans        &trans   &trans     &trans  &trans       &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
