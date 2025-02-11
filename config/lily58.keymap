@@ -43,7 +43,7 @@
         };
 
         switch_to_win_layer {
-            bindings = <&mo 1>;
+            bindings = <&tog 1>;
             key-positions = <53 52 54 55>;
             require-prior-idle-ms = <60>;
         };
