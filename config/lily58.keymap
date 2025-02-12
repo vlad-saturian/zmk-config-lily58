@@ -140,10 +140,10 @@
 
         higher_layer {
             bindings = <
-&trans  &trans  &trans                      &trans                      &trans                       &trans                    &trans     &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans                      &kp RA(RC(RG(UP_ARROW)))    &kp RA(RG(RC(ENTER)))        &trans                    &trans     &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
-&trans  &trans  &kp RA(RC(RG(LEFT_ARROW)))  &kp RA(RC(RG(DOWN_ARROW)))  &kp RA(RC(RG(RIGHT_ARROW)))  &trans                    &mkp MCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans                      &trans                      &trans                       &trans  &trans    &trans  &trans     &msc SCRL_UP    &msc SCRL_DOWN  &trans           &trans  &trans
+&trans  &trans  &trans                      &trans                      &trans                       &trans                    &trans     &trans          &trans          &trans           &trans           &trans
+&trans  &trans  &trans                      &kp RA(RC(RG(UP_ARROW)))    &kp RA(RG(RC(ENTER)))        &trans                    &trans     &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans           &trans
+&trans  &trans  &kp RA(RC(RG(LEFT_ARROW)))  &kp RA(RC(RG(DOWN_ARROW)))  &kp RA(RC(RG(RIGHT_ARROW)))  &trans                    &mkp MCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &trans
+&trans  &trans  &trans                      &trans                      &trans                       &trans  &trans    &trans  &trans     &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_LEFT   &msc SCRL_RIGHT  &trans
                                             &trans                      &trans                       &trans  &trans    &trans  &trans     &trans          &trans
             >;
         };
