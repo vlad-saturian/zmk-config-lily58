@@ -60,6 +60,12 @@
             bindings = <&kp EQUAL>;
             key-positions = <19 22>;
         };
+
+        windows_left_key {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <50 51>;
+            layers = <1>;
+        };
     };
 
     keymap {
