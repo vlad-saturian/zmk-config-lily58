@@ -24,7 +24,7 @@
         };
 
         backspace_hard {
-            bindings = <&kp LC(BACKSPACE)>;
+            bindings = <&kp LA(BACKSPACE)>;
             key-positions = <31 32 33>;
             layers = <0 1 2 3>;
         };
@@ -40,7 +40,7 @@
         };
 
         backspace_hard_2 {
-            bindings = <&kp LC(BACKSPACE)>;
+            bindings = <&kp LA(BACKSPACE)>;
             key-positions = <31 33>;
             layers = <0 2 1 3>;
         };
@@ -121,7 +121,7 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp RA(RG(RC(GRAVE)))  &kp RC(RA(RG(NUMBER_1)))  &kp RC(RA(RG(NUMBER_2)))  &kp RC(RA(RG(NUMBER_3)))  &kp RC(RA(RG(NUMBER_4)))  &kp RA(RC(RG(N5)))                                    &trans      &kp STAR          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &kp LS(BACKSPACE)
+&kp RA(RG(RC(GRAVE)))  &kp RC(RA(RG(NUMBER_1)))  &kp RC(RA(RG(NUMBER_2)))  &kp RC(RA(RG(NUMBER_3)))  &kp RC(RA(RG(NUMBER_4)))  &kp RA(RC(RG(N5)))                                    &trans      &kp STAR          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &kp LA(BACKSPACE)
 &kp RC(DOWN_ARROW)     &kp LS(LEFT_ARROW)        &kp UP_ARROW              &kp LS(RIGHT_ARROW)       &kp RG(RC(RA(R)))         &kp RG(RC(RA(T)))                                     &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_BRACE         &kp RIGHT_BRACE  &kp BACKSLASH
 &trans                 &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp RC(RG(RA(F)))         &kp RA(RG(RC(G)))                                     &kp EQUAL   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES     &kp GRAVE              &kp UNDERSCORE   &kp TILDE
 &trans                 &trans                    &trans                    &kp BACKSPACE             &kp RA(RC(RG(V)))         &kp RA(RC(RG(B)))     &trans       &kp LC(BACKSPACE)  &kp STAR    &kp PLUS          &kp MINUS             &kp LBRC               &kp QUESTION     &trans
@@ -143,7 +143,7 @@
 &kp C_BRIGHTNESS_INC  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                               &kp F6        &kp F7         &kp F8            &kp F9     &kp F10        &trans
 &kp C_BRIGHTNESS_DEC  &kp NUMBER_0  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp F6                                               &kp ASTERISK  &kp PERCENT    &trans            &trans     &trans         &trans
 &kp F4                &kp ENTER     &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4  &kp LA(LS(C_VOLUME_UP))                              &kp EQUAL     &kp BACKSLASH  &kp LEFT_BRACKET  &kp APOS   &trans         &trans
-&kp LC(APOS)          &kp DOT       &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp LA(LS(C_VOL_DN))     &kp C_PLAY_PAUSE    &trans  &kp KP_PLUS   &kp PLUS       &kp MINUS         &kp ASTRK  &kp KP_DIVIDE  &trans
+&kp LC(GRAVE)         &kp DOT       &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp LA(LS(C_VOL_DN))     &kp C_PLAY_PAUSE    &trans  &kp KP_PLUS   &kp PLUS       &kp MINUS         &kp ASTRK  &kp KP_DIVIDE  &trans
                                                   &trans        &trans        &trans                   &trans              &trans  &trans        &trans         &trans
             >;
 
