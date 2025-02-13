@@ -103,19 +103,33 @@
             layers = <2>;
         };
 
-        copy {
-            bindings = <&kp K_COPY>;
+        copy_mac {
+            bindings = <&kp LG(C)>;
             key-positions = <39 38>;
+            layers = <0 3 4>;
         };
 
-        paste {
-            bindings = <&kp K_PASTE>;
+        paste_mac {
+            bindings = <&kp LG(V)>;
             key-positions = <39 40>;
+            layers = <0 3 4>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <40 38>;
+        };
+
+        copy_win {
+            bindings = <&kp LC(C)>;
+            key-positions = <39 38>;
+            layers = <1>;
+        };
+
+        paste_win {
+            bindings = <&kp LC(V)>;
+            key-positions = <39 40>;
+            layers = <1>;
         };
     };
 
