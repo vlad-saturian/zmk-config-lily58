@@ -90,6 +90,33 @@
             key-positions = <28 25>;
             layers = <1>;
         };
+
+        text_select_bulky_right {
+            bindings = <&kp LA(LS(RIGHT_ARROW))>;
+            key-positions = <14 15>;
+            layers = <2>;
+        };
+
+        text_select_bulky_left {
+            bindings = <&kp LA(LS(LEFT_ARROW))>;
+            key-positions = <14 13>;
+            layers = <2>;
+        };
+
+        copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <39 38>;
+        };
+
+        paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <39 40>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <40 38>;
+        };
     };
 
     keymap {
