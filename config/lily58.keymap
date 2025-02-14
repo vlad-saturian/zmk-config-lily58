@@ -195,6 +195,18 @@
             key-positions = <29 27>;
             layers = <0 3>;
         };
+
+        arrow_up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <15 16>;
+            layers = <0 3>;
+        };
+
+        arrow_down {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <39 40>;
+            layers = <0 3>;
+        };
     };
 
     keymap {
