@@ -133,6 +133,68 @@
             key-positions = <39 40>;
             layers = <1>;
         };
+
+        shortcut_screen_left {
+            bindings = <&kp RA(RC(RG(LEFT_ARROW)))>;
+            key-positions = <45 46>;
+            require-prior-idle-ms = <50>;
+        };
+
+        shortcut_screen_right {
+            bindings = <&kp RA(RC(RG(RIGHT_ARROW)))>;
+            key-positions = <45 47>;
+            require-prior-idle-ms = <50>;
+        };
+
+        shortcut_screen_full {
+            bindings = <&kp RA(RC(RG(ENTER)))>;
+            key-positions = <45 48>;
+            require-prior-idle-ms = <50>;
+        };
+
+        shortcut_screen_next {
+            bindings = <&kp RA(RC(RG(UP_ARROW)))>;
+            key-positions = <46 47>;
+            require-prior-idle-ms = <50>;
+        };
+
+        page_up {
+            bindings = <&mt LG(PAGE_UP) PAGE_UP>;
+            key-positions = <30 31>;
+            timeout-ms = <150>;
+            require-prior-idle-ms = <20>;
+        };
+
+        page_down {
+            bindings = <&mt LG(PAGE_DOWN) PAGE_DOWN>;
+            key-positions = <44 45>;
+            timeout-ms = <150>;
+            require-prior-idle-ms = <20>;
+        };
+
+        arrow_right {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <28 27>;
+            layers = <0 3>;
+        };
+
+        arrow_left {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <28 26>;
+            layers = <0 3>;
+        };
+
+        arrow_right_by_word {
+            bindings = <&kp LA(RIGHT_ARROW)>;
+            key-positions = <28 29>;
+            layers = <0 3>;
+        };
+
+        arrow_left_by_word {
+            bindings = <&kp LA(LEFT_ARROW)>;
+            key-positions = <29 27>;
+            layers = <0 3>;
+        };
     };
 
     keymap {
