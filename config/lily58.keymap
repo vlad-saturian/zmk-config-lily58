@@ -63,14 +63,14 @@
             layers = <1>;
         };
 
-        home_in_caps_layer {
-            bindings = <&kp HOME>;
+        home_in_caps_layer_mac {
+            bindings = <&kp LG(LEFT_ARROW)>;
             key-positions = <25 26>;
             layers = <2>;
         };
 
-        end_in_caps_layer {
-            bindings = <&kp END>;
+        end_in_caps_layer_mac {
+            bindings = <&kp LG(RIGHT_ARROW)>;
             key-positions = <26 27>;
             layers = <2>;
         };
@@ -162,12 +162,12 @@
         };
 
         page_up {
-            bindings = <&mt LG(PAGE_UP) PAGE_UP>;
+            bindings = <&mt HOME PAGE_UP>;
             key-positions = <30 31>;
         };
 
         page_down {
-            bindings = <&mt LG(PAGE_DOWN) PAGE_DOWN>;
+            bindings = <&mt END PAGE_DOWN>;
             key-positions = <44 45>;
         };
 
