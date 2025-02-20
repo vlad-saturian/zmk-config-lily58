@@ -269,11 +269,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp C_BRIGHTNESS_INC  &kp F1        &kp F2        &kp F3          &kp F4        &kp F5                                               &kp F6        &kp F7       &kp F8        &kp F9    &kp F10    &trans
-&kp C_BRIGHTNESS_DEC  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp F6                                               &kp ASTERISK  &kp PERCENT  &kp ASTERISK  &trans    &trans     &trans
-&kp F4                &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp LA(LS(C_VOLUME_UP))                              &kp EQUAL     &kp EXCL     &kp AT        &kp HASH  &kp CARET  &trans
-&kp LC(GRAVE)         &kp DOT       &kp N7        &kp NUMBER_8    &kp N9        &kp LA(LS(C_VOL_DN))     &kp C_PLAY_PAUSE    &trans  &kp KP_PLUS   &kp PLUS     &kp MINUS     &trans    &trans     &trans
-                                                  &kp C_PREVIOUS  &kp C_NEXT    &trans                   &trans              &trans  &trans        &trans       &trans
+&kp C_BRIGHTNESS_INC  &kp F1        &kp F2        &kp F3          &kp F4        &kp F5                                               &kp F6        &kp F7                &kp F8                 &kp F9       &kp F10    &trans
+&kp C_BRIGHTNESS_DEC  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp F6                                               &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans       &trans     &trans
+&kp F4                &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp LA(LS(C_VOLUME_UP))                              &kp EQUAL     &kp EXCL              &kp AT                 &kp HASH     &kp CARET  &trans
+&kp LC(GRAVE)         &kp DOT       &kp N7        &kp NUMBER_8    &kp N9        &kp LA(LS(C_VOL_DN))     &kp C_PLAY_PAUSE    &trans  &kp KP_PLUS   &kp PLUS              &kp MINUS              &kp PERCENT  &trans     &trans
+                                                  &kp C_PREVIOUS  &kp C_NEXT    &trans                   &trans              &trans  &trans        &trans                &trans
             >;
         };
 
