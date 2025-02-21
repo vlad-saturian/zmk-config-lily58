@@ -53,7 +53,7 @@
         };
 
         equal {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp LG(SLASH)>;
             key-positions = <19 22>;
         };
 
