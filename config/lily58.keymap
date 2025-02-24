@@ -215,30 +215,6 @@
             key-positions = <37 40>;
             layers = <1>;
         };
-
-        undo_mac {
-            bindings = <&kp LG(Z)>;
-            key-positions = <41 40>;
-            layers = <0 3>;
-        };
-
-        redo_mac {
-            bindings = <&kp LG(LS(Z))>;
-            key-positions = <41 39>;
-            layers = <0 3>;
-        };
-
-        undo_win {
-            bindings = <&kp LC(Z)>;
-            key-positions = <41 40>;
-            layers = <1>;
-        };
-
-        redo_win {
-            bindings = <&kp LC(Y)>;
-            key-positions = <41 39>;
-            layers = <1>;
-        };
     };
 
     keymap {
