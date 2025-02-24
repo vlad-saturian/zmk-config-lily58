@@ -240,7 +240,7 @@
         redo_win {
             bindings = <&kp LC(Y)>;
             key-positions = <41 39>;
-            layers = <0>;
+            layers = <1>;
         };
     };
 
