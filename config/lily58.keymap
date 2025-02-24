@@ -112,7 +112,7 @@
         };
 
         paste_mac {
-            bindings = <&kp LG(V)>;
+            bindings = <&mt LG(V) LG(LA(LS(V)))>;
             key-positions = <39 40>;
             layers = <0 3 4>;
             require-prior-idle-ms = <50>;
@@ -207,9 +207,16 @@
             layers = <0 3 1>;
         };
 
-        paste_plain {
-            bindings = <&kp LS(LA(LG(V)))>;
+        find_mac {
+            bindings = <&mt LS(LG(F)) LG(F)>;
             key-positions = <37 40>;
+            layers = <0 3>;
+        };
+
+        find_win {
+            bindings = <&mt LS(LC(F)) LC(F)>;
+            key-positions = <37 40>;
+            layers = <1>;
         };
     };
 
