@@ -22,7 +22,7 @@
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <31 32>;
-            layers = <0 1 2 3>;
+            layers = <0 2 3 3>;
         };
 
         parenthesis_left {
@@ -38,11 +38,11 @@
         backspace_hard {
             bindings = <&kp LA(BACKSPACE)>;
             key-positions = <31 33>;
-            layers = <0 2 1 3>;
+            layers = <0 3 2 3>;
         };
 
         switch_to_win_layer {
-            bindings = <&tog 1>;
+            bindings = <&tog 2>;
             key-positions = <53 52 54 55>;
             require-prior-idle-ms = <60>;
         };
@@ -60,49 +60,49 @@
         windows_left_key {
             bindings = <&kp LEFT_WIN>;
             key-positions = <50 51>;
-            layers = <1>;
+            layers = <2>;
         };
 
         home_in_caps_layer_mac {
             bindings = <&kp LG(LEFT_ARROW)>;
             key-positions = <25 26>;
-            layers = <2>;
+            layers = <3>;
         };
 
         end_in_caps_layer_mac {
             bindings = <&kp LG(RIGHT_ARROW)>;
             key-positions = <26 27>;
-            layers = <2>;
+            layers = <3>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <31 34>;
-            layers = <0 2 1 3>;
+            layers = <0 3 2 3>;
         };
 
         lang_change_mac {
             bindings = <&kp F4>;
             key-positions = <28 25>;
-            layers = <0 2 3>;
+            layers = <0 3 3>;
         };
 
         lang_change_win {
             bindings = <&kp LA(LEFT_SHIFT)>;
             key-positions = <28 25>;
-            layers = <1>;
+            layers = <2>;
         };
 
         text_select_bulky_right {
             bindings = <&kp LA(LS(RIGHT_ARROW))>;
             key-positions = <14 15>;
-            layers = <2>;
+            layers = <3>;
         };
 
         text_select_bulky_left {
             bindings = <&kp LA(LS(LEFT_ARROW))>;
             key-positions = <14 13>;
-            layers = <2>;
+            layers = <3>;
         };
 
         copy_mac {
@@ -127,14 +127,14 @@
         copy_win {
             bindings = <&kp LC(C)>;
             key-positions = <39 38>;
-            layers = <1>;
+            layers = <2>;
             require-prior-idle-ms = <50>;
         };
 
         paste_win {
             bindings = <&kp LC(V)>;
             key-positions = <39 40>;
-            layers = <1>;
+            layers = <2>;
         };
 
         shortcut_screen_left {
@@ -174,13 +174,13 @@
         arrow_right {
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <28 27>;
-            layers = <0 3 1>;
+            layers = <0 3 2>;
         };
 
         arrow_left {
             bindings = <&kp LEFT_ARROW>;
             key-positions = <28 26>;
-            layers = <0 3 1>;
+            layers = <0 3 2>;
         };
 
         arrow_right_by_word {
@@ -198,13 +198,13 @@
         arrow_up {
             bindings = <&kp UP_ARROW>;
             key-positions = <16 15>;
-            layers = <0 3 1>;
+            layers = <0 3 2>;
         };
 
         arrow_down {
             bindings = <&kp DOWN_ARROW>;
             key-positions = <16 14>;
-            layers = <0 3 1>;
+            layers = <0 3 2>;
         };
 
         find_mac {
@@ -216,7 +216,7 @@
         find_win {
             bindings = <&mt LS(LC(F)) LC(F)>;
             key-positions = <37 40>;
-            layers = <1>;
+            layers = <2>;
         };
 
         undo_mac {
@@ -258,7 +258,7 @@
             bindings = <
 &mt LEFT_CONTROL ESCAPE  &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                   &kp N6       &kp N7            &kp N8         &kp N9   &kp N0    &kp BACKSPACE
 &kp TAB                  &kp Q   &kp W   &kp E     &kp R     &kp T                                    &kp Y        &kp U             &kp I          &kp O    &kp P     &kp LEFT_BRACKET
-&mo 2                    &kp A   &kp S   &kp D     &kp F     &kp G                                    &kp H        &kp J             &kp K          &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&mo 3                    &kp A   &kp S   &kp D     &kp F     &kp G                                    &kp H        &kp J             &kp K          &kp L    &kp SEMI  &kp SINGLE_QUOTE
 &kp LSHFT                &kp Z   &kp X   &kp C     &kp V     &kp B        &mo 5        &kp BACKSLASH  &kp N        &kp M             &kp COMMA      &kp DOT  &kp FSLH  &mt RSHFT ENTER
                                          &kp LALT  &kp LGUI  &lt 3 SPACE  &kp SPACE    &kp ENTER      &lt 4 ENTER  &kp LEFT_CONTROL  &kp C_AL_LOCK
             >;
