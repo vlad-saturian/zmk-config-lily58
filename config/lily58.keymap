@@ -103,13 +103,13 @@
         };
 
         copy_mac {
-            bindings = <&kp LG(C)>;
+            bindings = <&mt LG(LS(C)) LG(C)>;
             key-positions = <39 38>;
             layers = <0 2 3>;
         };
 
         paste_mac {
-            bindings = <&mt LG(V) LG(LA(LS(V)))>;
+            bindings = <&past_dance_mac>;
             key-positions = <39 40>;
             layers = <0 2 3>;
             require-prior-idle-ms = <50>;
@@ -214,6 +214,15 @@
             bindings = <&mt LS(LC(F)) LC(F)>;
             key-positions = <37 40>;
             layers = <1>;
+        };
+    };
+
+    behaviors {
+        past_dance_mac: past_dance_mac {
+            compatible = "zmk,behavior-tap-dance";
+            label = "PAST_DANCE_MAC";
+            #binding-cells = <0>;
+            bindings = <&kp LG(V)>, <&kp LS(LG(LA(V)))>;
         };
     };
 
