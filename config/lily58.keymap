@@ -240,9 +240,9 @@
         windows_layer {
             bindings = <
 &kp ESC  &trans  &trans  &trans        &trans            &trans                    &trans  &trans  &trans             &trans  &trans  &trans
-&trans   &trans  &trans  &trans        &kp R             &trans                    &trans  &trans  &trans             &trans  &trans  &trans
 &trans   &trans  &trans  &trans        &trans            &trans                    &trans  &trans  &trans             &trans  &trans  &trans
-&trans   &kp Z   &kp X   &kp C         &kp V             &kp B   &trans    &trans  &trans  &trans  &trans             &trans  &trans  &trans
+&trans   &trans  &trans  &trans        &trans            &trans                    &trans  &trans  &trans             &trans  &trans  &trans
+&trans   &trans  &trans  &trans        &trans            &trans  &trans    &trans  &trans  &trans  &trans             &trans  &trans  &trans
                          &kp LEFT_ALT  &kp LEFT_CONTROL  &trans  &trans    &trans  &trans  &trans  &kp RIGHT_COMMAND
             >;
         };
