@@ -192,12 +192,6 @@
             layers = <0 3>;
         };
 
-        arrow_up {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <16 15>;
-            layers = <0 3 2>;
-        };
-
         arrow_down {
             bindings = <&kp DOWN_ARROW>;
             key-positions = <16 14>;
