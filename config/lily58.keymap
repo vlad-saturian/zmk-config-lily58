@@ -63,13 +63,13 @@
         home_in_caps_layer_mac {
             bindings = <&kp LG(LEFT_ARROW)>;
             key-positions = <25 26>;
-            layers = <2>;
+            layers = <2 4>;
         };
 
         end_in_caps_layer_mac {
             bindings = <&kp LG(RIGHT_ARROW)>;
             key-positions = <26 27>;
-            layers = <2>;
+            layers = <2 4>;
         };
 
         delete {
