@@ -195,6 +195,8 @@
             label = "TOGGLE_CAPS_LAYER_MAC";
             #binding-cells = <0>;
             bindings = <&mo 2>, <&tog 2>;
+
+            tapping-term-ms = <100>;
         };
 
         toggle_caps_layer_win: toggle_caps_layer_win {
@@ -202,6 +204,8 @@
             label = "TOGGLE_CAPS_LAYER_WIN";
             #binding-cells = <0>;
             bindings = <&mo 3>, <&tog 3>;
+
+            tapping-term-ms = <100>;
         };
     };
 
