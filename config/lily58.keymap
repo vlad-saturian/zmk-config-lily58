@@ -165,22 +165,10 @@
             key-positions = <44 45>;
         };
 
-        arrow_right_by_word {
-            bindings = <&kp LA(RIGHT_ARROW)>;
-            key-positions = <28 27>;
-            layers = <0 4>;
-        };
-
-        arrow_left_by_word {
-            bindings = <&kp LA(LEFT_ARROW)>;
-            key-positions = <28 26>;
-            layers = <0 4>;
-        };
-
         find_mac {
             bindings = <&mt LS(LG(F)) LG(F)>;
             key-positions = <37 40>;
-            layers = <0 4>;
+            layers = <0>;
         };
 
         find_win {
@@ -197,12 +185,14 @@
 
         select_word_mac {
             bindings = <&select_word>;
-            key-positions = <29 28>;
+            key-positions = <28 27>;
+            layers = <0 2>;
         };
 
         select_line_mac {
             bindings = <&select_line>;
-            key-positions = <41 40>;
+            key-positions = <28 26>;
+            layers = <2 0>;
         };
     };
 
