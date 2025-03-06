@@ -30,9 +30,10 @@
             key-positions = <21 19>;
         };
 
-        backspace_hard {
+        backspace_hard_mac {
             bindings = <&kp LA(BACKSPACE)>;
             key-positions = <31 33>;
+            layers = <0 2>;
         };
 
         parenthesis_right_2 {
@@ -187,6 +188,22 @@
             key-positions = <37 40>;
             layers = <1>;
         };
+
+        backspace_hard_win {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <31 33>;
+            layers = <0 2>;
+        };
+
+        select_word_mac {
+            bindings = <&select_word>;
+            key-positions = <29 28>;
+        };
+
+        select_line_mac {
+            bindings = <&select_line>;
+            key-positions = <41 40>;
+        };
     };
 
     behaviors {
@@ -195,6 +212,22 @@
             label = "MODIFICATOR_DANCER";
             #binding-cells = <0>;
             bindings = <&kp LA(LEFT_COMMAND)>, <&kp LS(LEFT_COMMAND)>;
+        };
+    };
+
+    macros {
+        select_word: select_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LEFT) &kp LS(LA(RIGHT_ARROW))>;
+            label = "SELECT_WORD";
+        };
+
+        select_line: select_line {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LEFT_ARROW) &kp LG(LS(RIGHT_ARROW))>;
+            label = "SELECT_LINE";
         };
     };
 
@@ -284,11 +317,11 @@
 
         bluetooth_controls {
             bindings = <
-&trans          &trans  &trans        &trans             &to 3             &to 2                                      &trans             &trans            &trans             &trans  &trans  &trans
-&studio_unlock  &trans  &trans        &ext_power EP_OFF  &ext_power EP_ON  &ext_power EP_TOG                          &ext_power EP_TOG  &ext_power EP_ON  &ext_power EP_OFF  &trans  &trans  &trans
-&trans          &trans  &bt BT_SEL 3  &bt BT_SEL 2       &bt BT_SEL 1      &bt BT_SEL 0                               &trans             &trans            &trans             &trans  &trans  &trans
-&trans          &trans  &trans        &trans             &trans            &bt BT_CLR         &trans          &to 5   &trans             &trans            &trans             &trans  &trans  &trans
-                                      &to 4              &to 0             &tog 1             &out OUT_TOG    &trans  &trans             &trans            &trans
+&trans          &trans  &trans        &trans        &trans        &trans                                &trans             &trans            &trans             &trans  &trans  &trans
+&studio_unlock  &trans  &trans        &gresc        &to 3         &to 2                                 &ext_power EP_TOG  &ext_power EP_ON  &ext_power EP_OFF  &trans  &trans  &trans
+&trans          &trans  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                          &kp PAUSE_BREAK    &trans            &trans             &trans  &trans  &trans
+&trans          &trans  &trans        &trans        &trans        &bt BT_CLR    &trans          &to 5   &trans             &trans            &trans             &trans  &trans  &trans
+                                      &to 4         &to 0         &tog 1        &out OUT_TOG    &trans  &trans             &trans            &trans
             >;
         };
     };
