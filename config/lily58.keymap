@@ -296,11 +296,11 @@
 
         higher_layer {
             bindings = <
-&trans  &trans    &trans    &trans          &trans           &trans                            &trans     &trans             &trans             &trans            &trans  &trans
-&trans  &trans    &trans    &trans          &trans           &trans                            &trans     &mkp LCLK          &mmv MOVE_Y(-1200)  &mkp RCLK         &trans  &trans
+&trans  &trans    &trans    &trans          &trans           &trans                            &trans     &trans              &trans              &trans             &trans  &trans
+&trans  &trans    &trans    &trans          &trans           &trans                            &trans     &mkp LCLK           &mmv MOVE_Y(-1200)  &mkp RCLK          &trans  &trans
 &trans  &mkp MB4  &mkp MB3  &mkp MB2        &mkp MB1         &msc SCRL_UP                      &mkp MCLK  &mmv MOVE_X(-1200)  &mmv MOVE_Y(1200)   &mmv MOVE_X(1200)  &trans  &trans
-&trans  &mkp MB4  &mkp MB5  &msc SCRL_LEFT  &msc SCRL_RIGHT  &msc SCRL_DOWN  &trans    &trans  &trans     &msc SCRL_UP       &msc SCRL_DOWN     &trans            &trans  &trans
-                            &trans          &trans           &kp ENTER       &trans    &trans  &trans     &trans             &trans
+&trans  &mkp MB4  &mkp MB5  &msc SCRL_LEFT  &msc SCRL_RIGHT  &msc SCRL_DOWN  &trans    &trans  &trans     &msc SCRL_UP        &msc SCRL_DOWN      &trans             &trans  &trans
+                            &trans          &trans           &kp ENTER       &trans    &trans  &trans     &trans              &trans
             >;
         };
 
@@ -310,7 +310,7 @@
 &studio_unlock  &trans  &trans        &gresc        &to 3         &to 2                                 &trans           &trans  &trans  &trans  &trans  &trans
 &trans          &trans  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                          &kp PAUSE_BREAK  &trans  &trans  &trans  &trans  &trans
 &trans          &trans  &trans        &trans        &trans        &bt BT_CLR    &trans          &to 5   &kp INSERT       &trans  &trans  &trans  &trans  &trans
-                                      &trans        &to 0         &tog 1        &out OUT_TOG    &trans  &trans           &trans  &trans
+                                      &trans        &to 0         &tog 1        &out OUT_TOG    &trans  &to 5            &trans  &trans
             >;
         };
     };
