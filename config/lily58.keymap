@@ -297,8 +297,8 @@
         higher_layer {
             bindings = <
 &trans  &trans    &trans    &trans          &trans           &trans                            &trans     &trans             &trans             &trans            &trans  &trans
-&trans  &trans    &trans    &trans          &trans           &trans                            &trans     &mkp LCLK          &mmv MOVE_Y(-1000)  &mkp RCLK         &trans  &trans
-&trans  &mkp MB4  &mkp MB3  &mkp MB2        &mkp MB1         &msc SCRL_UP                      &mkp MCLK  &mmv MOVE_X(-1000)  &mmv MOVE_Y(1000)   &mmv MOVE_X(1000)  &trans  &trans
+&trans  &trans    &trans    &trans          &trans           &trans                            &trans     &mkp LCLK          &mmv MOVE_Y(-1200)  &mkp RCLK         &trans  &trans
+&trans  &mkp MB4  &mkp MB3  &mkp MB2        &mkp MB1         &msc SCRL_UP                      &mkp MCLK  &mmv MOVE_X(-1200)  &mmv MOVE_Y(1200)   &mmv MOVE_X(1200)  &trans  &trans
 &trans  &mkp MB4  &mkp MB5  &msc SCRL_LEFT  &msc SCRL_RIGHT  &msc SCRL_DOWN  &trans    &trans  &trans     &msc SCRL_UP       &msc SCRL_DOWN     &trans            &trans  &trans
                             &trans          &trans           &kp ENTER       &trans    &trans  &trans     &trans             &trans
             >;
