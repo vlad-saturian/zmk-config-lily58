@@ -17,6 +17,7 @@
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <31 32>;
+            layers = <0 1 2 3 4>;
         };
 
         parenthesis_left {
