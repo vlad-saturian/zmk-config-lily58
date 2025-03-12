@@ -205,13 +205,6 @@
             #binding-cells = <0>;
             bindings = <&kp LA(LEFT_COMMAND)>, <&kp LS(LEFT_COMMAND)>;
         };
-
-        mouse_layer_toggle: mouse_layer_toggle {
-            compatible = "zmk,behavior-tap-dance";
-            label = "MOUSE_LAYER_TOGGLE";
-            #binding-cells = <0>;
-            bindings = <&mo 5>, <&tog 5>;
-        };
     };
 
     macros {
@@ -296,10 +289,10 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp C_BRIGHTNESS_INC  &kp F1        &kp F2        &kp F3          &kp F4        &kp F5                                               &kp F6         &kp F7                &kp F8                 &kp F9       &kp F10        &trans
-&kp C_BRIGHTNESS_DEC  &kp NUMBER_0  &kp N7        &kp N8          &kp N9        &kp F6                                               &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH     &kp CARET      &trans
-&kp F4                &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp LA(LS(C_VOLUME_UP))                              &kp EQUAL      &kp EXCL              &kp AT                 &kp SLASH    &kp BACKSLASH  &trans
-&kp LC(GRAVE)         &kp DOT       &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp LA(LS(C_VOL_DN))     &kp C_PLAY_PAUSE    &trans  &kp KP_PLUS    &kp PLUS              &kp MINUS              &kp PERCENT  &kp AMPERSAND  &trans
+&kp C_BRIGHTNESS_INC  &kp F1        &kp F2        &kp F3          &kp F4        &kp F5                                               &kp F6         &kp F7                &kp F8                 &kp F9             &kp F10        &trans
+&kp C_BRIGHTNESS_DEC  &kp NUMBER_0  &kp N7        &kp N8          &kp N9        &kp F6                                               &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH           &kp CARET      &trans
+&kp F4                &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp LA(LS(C_VOLUME_UP))                              &kp EQUAL      &kp EXCL              &kp AT                 &kp LS(BACKSLASH)  &kp BACKSLASH  &trans
+&kp LC(GRAVE)         &kp DOT       &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp LA(LS(C_VOL_DN))     &kp C_PLAY_PAUSE    &trans  &kp KP_PLUS    &kp PLUS              &kp MINUS              &kp PERCENT        &kp AMPERSAND  &trans
                                                   &kp C_PREVIOUS  &kp C_NEXT    &trans                   &trans              &trans  &kp AMPERSAND  &trans                &trans
             >;
         };
