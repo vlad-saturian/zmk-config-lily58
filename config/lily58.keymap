@@ -235,11 +235,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&mt LEFT_CONTROL ESCAPE  &mt F1 N1  &mt F2 N2  &mt F3 N3  &mt F4 N4  &mt F5 N5                                      &kp N6               &kp N7            &kp N8         &kp N9   &kp N0             &kp BACKSPACE
-&kp TAB                  &kp Q      &kp W      &kp E      &kp R      &kp T                                          &kp Y                &kp U             &kp I          &kp O    &kp P              &kp LEFT_BRACKET
-&mo 2                    &kp A      &kp S      &kp D      &kp F      &kp G                                          &kp H                &kp J             &kp K          &kp L    &mt LEFT_GUI SEMI  &mt LEFT_ALT SINGLE_QUOTE
-&kp LSHFT                &kp Z      &kp X      &kp C      &kp V      &kp B        &mo 6        &modificator_dancer  &kp N                &kp M             &kp COMMA      &kp DOT  &kp FSLH           &mt RSHFT ENTER
-                                               &kp LALT   &kp LGUI   &lt 4 SPACE  &kp SPACE    &kp ENTER            &mouse_layer_toggle  &kp LEFT_CONTROL  &kp C_AL_LOCK
+&mt LEFT_CONTROL ESCAPE  &mt F1 N1  &mt F2 N2  &mt F3 N3  &mt F4 N4  &mt F5 N5                                      &kp N6  &kp N7            &kp N8         &kp N9   &kp N0             &kp BACKSPACE
+&kp TAB                  &kp Q      &kp W      &kp E      &kp R      &kp T                                          &kp Y   &kp U             &kp I          &kp O    &kp P              &kp LEFT_BRACKET
+&mo 2                    &kp A      &kp S      &kp D      &kp F      &kp G                                          &kp H   &kp J             &kp K          &kp L    &mt LEFT_GUI SEMI  &mt LEFT_ALT SINGLE_QUOTE
+&kp LSHFT                &kp Z      &kp X      &kp C      &kp V      &kp B        &mo 6        &modificator_dancer  &kp N   &kp M             &kp COMMA      &kp DOT  &kp FSLH           &mt RSHFT ENTER
+                                               &kp LALT   &kp LGUI   &lt 4 SPACE  &kp SPACE    &kp ENTER            &mo 5   &kp LEFT_CONTROL  &kp C_AL_LOCK
             >;
         };
 
