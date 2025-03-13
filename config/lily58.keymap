@@ -310,7 +310,7 @@
         bluetooth_controls {
             bindings = <
 &trans          &trans        &trans        &trans        &trans        &trans                                &trans           &trans  &trans  &trans  &trans  &trans
-&studio_unlock  &trans        &trans        &trans        &tog 3        &tog 2                                &trans           &trans  &trans  &trans  &trans  &trans
+&studio_unlock  &trans        &trans        &trans        &tog 3        &tog 2                                &kp PRINTSCREEN  &trans  &trans  &trans  &trans  &trans
 &trans          &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                          &kp PAUSE_BREAK  &trans  &trans  &trans  &trans  &trans
 &trans          &trans        &trans        &trans        &trans        &bt BT_CLR    &trans          &tog 5  &kp INSERT       &trans  &trans  &trans  &trans  &trans
                                             &trans        &to 0         &tog 1        &out OUT_TOG    &trans  &tog 5           &trans  &trans
