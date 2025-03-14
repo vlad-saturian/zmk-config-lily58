@@ -276,20 +276,20 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp RA(RG(RC(GRAVE)))  &kp RC(RA(RG(NUMBER_1)))  &kp RC(RA(RG(NUMBER_2)))  &kp RC(RA(RG(NUMBER_3)))  &kp RC(RA(RG(NUMBER_4)))  &kp RA(RC(RG(N5)))                    &trans      &kp STAR          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &kp LA(BACKSPACE)
-&kp LS(TAB)            &kp LA(LEFT_ARROW)        &kp UP_ARROW              &kp LA(RIGHT_ARROW)       &kp RG(RC(RA(R)))         &kp RG(RC(RA(T)))                     &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_BRACE         &kp RIGHT_BRACE   &kp BACKSLASH
-&mo 0                  &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp RC(RG(RA(F)))         &kp RA(RG(RC(G)))                     &kp EQUAL   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES     &kp GRAVE              &kp UNDERSCORE    &mt LEFT_SHIFT TILDE
-&trans                 &kp LG(Z)                 &kp LS(LG(Z))             &kp BACKSPACE             &kp RA(RC(RG(V)))         &kp RA(RC(RG(B)))   &trans    &trans  &kp PLUS    &kp PLUS          &kp MINUS             &kp LESS_THAN          &kp GREATER_THAN  &kp RIGHT_SHIFT
+&kp RA(RG(RC(GRAVE)))  &kp RC(RA(RG(NUMBER_1)))  &kp RC(RA(RG(NUMBER_2)))  &kp RC(RA(RG(NUMBER_3)))  &kp RC(RA(RG(NUMBER_4)))  &kp RA(RC(RG(N5)))                    &trans      &kp STAR          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                       &kp LA(BACKSPACE)
+&kp LS(TAB)            &kp LA(LEFT_ARROW)        &kp UP_ARROW              &kp LA(RIGHT_ARROW)       &kp RG(RC(RA(R)))         &kp RG(RC(RA(T)))                     &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_BRACE         &kp RIGHT_BRACE              &kp BACKSLASH
+&mo 0                  &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp RC(RG(RA(F)))         &kp RA(RG(RC(G)))                     &kp EQUAL   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES     &mt LEFT_ALT GRAVE     &mt LEFT_COMMAND UNDERSCORE  &mt LEFT_SHIFT TILDE
+&trans                 &kp LG(Z)                 &kp LS(LG(Z))             &kp BACKSPACE             &kp RA(RC(RG(V)))         &kp RA(RC(RG(B)))   &trans    &trans  &kp PLUS    &kp PLUS          &kp MINUS             &kp LESS_THAN          &kp GREATER_THAN             &kp RIGHT_SHIFT
                                                                            &trans                    &trans                    &kp LEFT_SHIFT      &trans    &trans  &kp AMPS    &trans            &trans
             >;
         };
 
         caps_layer_win {
             bindings = <
-&kp RA(RG(RC(GRAVE)))  &kp RC(RA(RG(NUMBER_1)))  &kp RC(RA(RG(NUMBER_2)))  &kp RC(RA(RG(NUMBER_3)))  &kp RC(RA(RG(NUMBER_4)))  &kp RA(RC(RG(N5)))                    &trans      &kp STAR          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &kp LC(BACKSPACE)
-&kp LS(TAB)            &kp HOME                  &kp UP_ARROW              &kp END                   &kp RG(RC(RA(R)))         &kp RG(RC(RA(T)))                     &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_BRACE         &kp RIGHT_BRACE   &kp BACKSLASH
-&mo 1                  &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp RC(RG(RA(F)))         &kp RA(RG(RC(G)))                     &kp EQUAL   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES     &kp GRAVE              &kp UNDERSCORE    &mt LEFT_SHIFT TILDE
-&trans                 &kp LC(Z)                 &kp LC(Y)                 &kp BACKSPACE             &kp RA(RC(RG(V)))         &kp RA(RC(RG(B)))   &trans    &trans  &kp PLUS    &kp PLUS          &kp MINUS             &kp LESS_THAN          &kp GREATER_THAN  &kp RIGHT_SHIFT
+&kp RA(RG(RC(GRAVE)))  &kp RC(RA(RG(NUMBER_1)))  &kp RC(RA(RG(NUMBER_2)))  &kp RC(RA(RG(NUMBER_3)))  &kp RC(RA(RG(NUMBER_4)))  &kp RA(RC(RG(N5)))                    &trans      &kp STAR          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                       &kp LC(BACKSPACE)
+&kp LS(TAB)            &kp HOME                  &kp UP_ARROW              &kp END                   &kp RG(RC(RA(R)))         &kp RG(RC(RA(T)))                     &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_BRACE         &kp RIGHT_BRACE              &kp BACKSLASH
+&mo 1                  &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp RC(RG(RA(F)))         &kp RA(RG(RC(G)))                     &kp EQUAL   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES     &mt LEFT_ALT GRAVE     &mt LEFT_CONTROL UNDERSCORE  &mt LEFT_SHIFT TILDE
+&trans                 &kp LC(Z)                 &kp LC(Y)                 &kp BACKSPACE             &kp RA(RC(RG(V)))         &kp RA(RC(RG(B)))   &trans    &trans  &kp PLUS    &kp PLUS          &kp MINUS             &kp LESS_THAN          &kp GREATER_THAN             &kp RIGHT_SHIFT
                                                                            &trans                    &trans                    &kp LEFT_SHIFT      &trans    &trans  &kp AMPS    &trans            &trans
             >;
         };
