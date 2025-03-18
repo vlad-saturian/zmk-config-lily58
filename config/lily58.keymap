@@ -186,45 +186,57 @@
         };
 
         select_word_mac {
-            bindings = <&select_word>;
+            bindings = <&select_word_mac>;
             key-positions = <28 27>;
             layers = <0 2>;
         };
 
         select_line_mac {
-            bindings = <&select_line>;
+            bindings = <&select_line_mac>;
             key-positions = <28 26>;
             layers = <2 0>;
         };
 
         select_all_mac {
             bindings = <&kp LG(A)>;
-            key-positions = <40 27>;
+            key-positions = <40 25>;
             require-prior-idle-ms = <100>;
             layers = <0 2>;
         };
 
         select_all_win {
             bindings = <&kp LC(A)>;
-            key-positions = <40 27>;
+            key-positions = <40 25>;
             require-prior-idle-ms = <100>;
             layers = <1 3>;
+        };
+
+        enter_some_pass {
+            bindings = <&some_pas>;
+            key-positions = <12 24>;
         };
     };
 
     macros {
-        select_word: select_word {
+        select_word_mac: select_word {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LEFT) &kp LS(LA(RIGHT_ARROW))>;
             label = "SELECT_WORD";
         };
 
-        select_line: select_line {
+        select_line_mac: select_line {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LG(LEFT_ARROW) &kp LG(LS(RIGHT_ARROW))>;
             label = "SELECT_LINE";
+        };
+
+        some_pas: some_pas {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp Q &kp W &kp E &kp R &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp N1 &kp N2 &kp N3 &kp EXCL>;
+            label = "SOME_PAS";
         };
     };
 
