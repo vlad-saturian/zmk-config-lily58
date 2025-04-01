@@ -54,7 +54,7 @@
         windows_left_key {
             bindings = <&kp LEFT_WIN>;
             key-positions = <50 51>;
-            layers = <1>;
+            layers = <3>;
         };
 
         home_in_caps_layer_mac {
