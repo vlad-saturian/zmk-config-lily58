@@ -203,6 +203,16 @@
             bindings = <&some_pas>;
             key-positions = <12 24>;
         };
+
+        Q_combo {
+            bindings = <&kp Q>;
+            key-positions = <13 25>;
+        };
+
+        P_combo {
+            bindings = <&kp P>;
+            key-positions = <22 34>;
+        };
     };
 
     macros {
