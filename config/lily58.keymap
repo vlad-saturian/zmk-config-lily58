@@ -26,12 +26,12 @@
 
         parenthesis_left {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <19 20>;
+            key-positions = <19 31>;
         };
 
         parenthesis_right {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <21 19>;
+            key-positions = <20 32>;
         };
 
         backspace_hard_mac {
