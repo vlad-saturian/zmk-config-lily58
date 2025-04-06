@@ -218,6 +218,21 @@
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <19 31>;
         };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <31 45>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <32 46>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <33 47>;
+        };
     };
 
     macros {
