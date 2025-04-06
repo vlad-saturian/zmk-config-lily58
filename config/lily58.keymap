@@ -208,8 +208,8 @@
             key-positions = <22 34>;
         };
 
-        parenthesis_left_2 {
-            bindings = <&kp LEFT_PARENTHESIS>;
+        parenthesis_left_3 {
+            bindings = <&kp KP_LEFT_PARENTHESIS>;
             key-positions = <19 31>;
         };
 
@@ -221,6 +221,11 @@
         asterisk {
             bindings = <&kp ASTERISK>;
             key-positions = <33 47>;
+        };
+
+        plus {
+            bindings = <&kp KP_PLUS>;
+            key-positions = <45 31>;
         };
     };
 
