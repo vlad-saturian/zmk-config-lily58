@@ -25,13 +25,14 @@
         };
 
         parenthesis_left {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&parenthesis>;
             key-positions = <19 20>;
         };
 
         parenthesis_right {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <19 21>;
+            layers = <6>;
         };
 
         backspace_hard_mac {
@@ -208,11 +209,6 @@
             key-positions = <22 34>;
         };
 
-        parenthesis_left_3 {
-            bindings = <&kp KP_LEFT_PARENTHESIS>;
-            key-positions = <19 31>;
-        };
-
         minus {
             bindings = <&kp MINUS>;
             key-positions = <32 46>;
@@ -223,8 +219,8 @@
             key-positions = <33 47>;
         };
 
-        plus {
-            bindings = <&kp KP_PLUS>;
+        plus_combo {
+            bindings = <&kp PLUS>;
             key-positions = <45 31>;
         };
     };
@@ -249,6 +245,13 @@
             #binding-cells = <0>;
             bindings = <&none &kp Q &kp W &kp E &kp R &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp N1 &kp N2 &kp N3 &kp EXCL>;
             label = "SOME_PAS";
+        };
+
+        parenthesis: parenthesis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
+            label = "PARENTHESIS";
         };
     };
 
