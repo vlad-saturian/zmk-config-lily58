@@ -26,12 +26,12 @@
 
         parenthesis_left {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <19 31>;
+            key-positions = <19 20>;
         };
 
         parenthesis_right {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <20 32>;
+            key-positions = <19 21>;
         };
 
         backspace_hard_mac {
@@ -42,7 +42,7 @@
 
         parenthesis_right_2 {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <21 20>;
+            key-positions = <20 32>;
         };
 
         comment {
@@ -212,6 +212,11 @@
         P_combo {
             bindings = <&kp P>;
             key-positions = <22 34>;
+        };
+
+        parenthesis_left_2 {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <19 31>;
         };
     };
 
