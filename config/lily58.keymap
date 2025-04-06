@@ -51,12 +51,6 @@
             layers = <0 2>;
         };
 
-        windows_left_key {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <50 51>;
-            layers = <3>;
-        };
-
         home_in_caps_layer_mac {
             bindings = <&kp LG(LEFT_ARROW)>;
             key-positions = <25 26>;
@@ -217,11 +211,6 @@
         parenthesis_left_2 {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <19 31>;
-        };
-
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <31 45>;
         };
 
         minus {
