@@ -177,7 +177,7 @@
         };
 
         backspace_hard_win {
-            bindings = <&kp LC(BACKSPACE)>;
+            bindings = <&kp RC(BACKSPACE)>;
             key-positions = <31 33>;
             layers = <1 3>;
         };
