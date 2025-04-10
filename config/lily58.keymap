@@ -179,7 +179,7 @@
         backspace_hard_win {
             bindings = <&kp RC(BACKSPACE)>;
             key-positions = <31 33>;
-            layers = <3>;
+            layers = <3 1>;
         };
 
         select_word_mac {
