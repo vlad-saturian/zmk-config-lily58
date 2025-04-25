@@ -208,21 +208,6 @@
             bindings = <&kp P>;
             key-positions = <22 34>;
         };
-
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <32 46>;
-        };
-
-        asterisk {
-            bindings = <&kp ASTERISK>;
-            key-positions = <33 47>;
-        };
-
-        plus_combo {
-            bindings = <&kp PLUS>;
-            key-positions = <45 31>;
-        };
     };
 
     macros {
@@ -354,7 +339,17 @@
 &studio_unlock  &trans        &trans        &trans        &tog 3        &tog 2                                &kp PRINTSCREEN  &trans  &trans  &trans  &trans  &trans
 &trans          &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                          &kp PAUSE_BREAK  &trans  &trans  &trans  &trans  &trans
 &trans          &trans        &trans        &trans        &trans        &bt BT_CLR    &trans          &tog 5  &kp INSERT       &trans  &trans  &trans  &trans  &trans
-                                            &trans        &to 0         &tog 1        &out OUT_TOG    &trans  &tog 5           &trans  &trans
+                                            &tog 7        &to 0         &tog 1        &out OUT_TOG    &trans  &tog 5           &trans  &trans
+            >;
+        };
+
+        gaming_layer {
+            bindings = <
+&kp ESC  &trans  &trans  &trans  &trans        &trans                              &trans  &trans  &trans             &trans  &trans                 &trans
+&trans   &trans  &trans  &trans  &trans        &trans                              &trans  &trans  &trans             &trans  &trans                 &trans
+&mo 3    &trans  &trans  &trans  &trans        &trans                              &trans  &trans  &trans             &trans  &mt LEFT_CONTROL SEMI  &mt LEFT_ALT SINGLE_QUOTE
+&trans   &trans  &trans  &trans  &trans        &trans            &trans    &trans  &trans  &trans  &trans             &trans  &trans                 &trans
+                         &mo 4   &kp LEFT_ALT  &kp LEFT_CONTROL  &trans    &trans  &trans  &trans  &kp RIGHT_COMMAND
             >;
         };
     };
