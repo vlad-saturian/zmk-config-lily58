@@ -48,7 +48,7 @@
 
         comment {
             bindings = <&kp LG(SLASH)>;
-            key-positions = <31 32 33>;
+            key-positions = <31 35>;
             layers = <0 2>;
         };
 
