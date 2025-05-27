@@ -243,7 +243,7 @@
         altf4: altf4 {
             compatible = "zmk,behavior-mod-morph";
             label = "ALTF4";
-            bindings = <&kp NUMBER_4>, <&kp F4>;
+            bindings = <&kp NUMBER_4>, <&kp LA(F4)>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
