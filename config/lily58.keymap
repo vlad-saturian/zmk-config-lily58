@@ -29,21 +29,10 @@
             key-positions = <19 20>;
         };
 
-        parenthesis_left {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <19 31>;
-            layers = <6>;
-        };
-
         backspace_hard_mac {
             bindings = <&kp LA(BACKSPACE)>;
             key-positions = <31 33>;
             layers = <0 2>;
-        };
-
-        parenthesis_right_2 {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <20 32>;
         };
 
         comment {
