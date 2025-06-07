@@ -190,13 +190,13 @@
         };
 
         mouse_left {
-            bindings = <&mmv MOVE_X(600)>;
+            bindings = <&mmv MOVE_X(-600)>;
             key-positions = <31 32>;
             layers = <5>;
         };
 
         mouse_right {
-            bindings = <&mmv MOVE_X(-600)>;
+            bindings = <&mmv MOVE_X(600)>;
             key-positions = <32 33>;
             layers = <5>;
         };
