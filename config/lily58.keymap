@@ -56,6 +56,7 @@
         delete {
             bindings = <&kp DELETE>;
             key-positions = <31 34>;
+            layers = <0 2 3 4 1>;
         };
 
         lang_change_mac {
@@ -186,6 +187,18 @@
         enter_some_pass {
             bindings = <&some_pas>;
             key-positions = <12 24>;
+        };
+
+        mouse_left {
+            bindings = <&mmv MOVE_X(600)>;
+            key-positions = <31 32>;
+            layers = <5>;
+        };
+
+        mouse_right {
+            bindings = <&mmv MOVE_X(-600)>;
+            key-positions = <32 33>;
+            layers = <5>;
         };
     };
 
