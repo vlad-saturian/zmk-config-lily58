@@ -190,13 +190,13 @@
         };
 
         mouse_left {
-            bindings = <&mmv MOVE_X(-600)>;
+            bindings = <&mmv MOVE_X(-1800)>;
             key-positions = <31 32>;
             layers = <5>;
         };
 
         mouse_right {
-            bindings = <&mmv MOVE_X(600)>;
+            bindings = <&mmv MOVE_X(1800)>;
             key-positions = <32 33>;
             layers = <5>;
         };
@@ -343,8 +343,8 @@
         higher_layer {
             bindings = <
 &trans        &trans           &trans          &trans    &trans    &trans                                  &trans     &trans              &trans              &trans             &trans    &trans
-&trans        &msc SCRL_RIGHT  &msc SCRL_LEFT  &trans    &trans    &trans                                  &trans     &mkp LCLK           &mmv MOVE_Y(-1350)  &mkp RCLK          &trans    &trans
-&trans        &mkp MB4         &mkp MB3        &mkp MB2  &mkp MB1  &trans                                  &mkp MCLK  &mmv MOVE_X(-1350)  &mmv MOVE_Y(1350)   &mmv MOVE_X(1350)  &mkp MB4  &trans
+&trans        &msc SCRL_RIGHT  &msc SCRL_LEFT  &trans    &trans    &trans                                  &trans     &mkp LCLK           &mmv MOVE_Y(-1300)  &mkp RCLK          &trans    &trans
+&trans        &mkp MB4         &mkp MB3        &mkp MB2  &mkp MB1  &trans                                  &mkp MCLK  &mmv MOVE_X(-1300)  &mmv MOVE_Y(1300)   &mmv MOVE_X(1300)  &mkp MB4  &trans
 &msc SCRL_UP  &mkp MB5         &trans          &trans    &trans    &trans        &trans            &trans  &trans     &msc SCRL_UP        &msc SCRL_DOWN      &trans             &mkp MB5  &trans
                                                &trans    &trans    &msc SCRL_UP  &msc SCRL_DOWN    &trans  &trans     &trans              &trans
             >;
