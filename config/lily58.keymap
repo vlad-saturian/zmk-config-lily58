@@ -27,6 +27,7 @@
         parenthesis_both {
             bindings = <&parenthesis>;
             key-positions = <19 20>;
+            layers = <0 1 2 3 4>;
         };
 
         backspace_hard_mac {
