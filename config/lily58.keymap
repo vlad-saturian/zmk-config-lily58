@@ -221,7 +221,7 @@
         some_pas: some_pas {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp Q &kp W &kp E &kp R &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp N1 &kp N2 &kp N3 &kp EXCL>;
+            bindings = <&none &kp Q &kp W &kp E &kp LS(A) &kp LS(S) &kp LS(D) &kp N1 &kp N2 &kp N3 &kp EXCL &kp AT &kp HASH>;
             label = "SOME_PAS";
         };
 
